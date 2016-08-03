@@ -18,48 +18,120 @@
         </nav> <!-- End ./navbar navbar-default navbar-fixed top -->
 
         <div class="container">
-            <div class="row">
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-                <div class="col-lg-1">.col-lg-1</div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2">.col-lg-2</div>
-                <div class="col-lg-2">.col-lg-2</div>
-                <div class="col-lg-2">.col-lg-2</div>
-                <div class="col-lg-2">.col-lg-2</div>
-                <div class="col-lg-2">.col-lg-2</div>
-                <div class="col-lg-2">.col-lg-2</div>
-            </div> <!-- End .row -->
-
-             <div class="row">
-                <div class="col-lg-3">.col-lg-3</div>
-                <div class="col-lg-3">.col-lg-3</div>
-                <div class="col-lg-3">.col-lg-3</div>
-                <div class="col-lg-3">.col-lg-3</div>
-            </div> <!-- End .row -->
-
-             <div class="row">
-                <div class="col-lg-4">.col-lg-4</div>
-                <div class="col-lg-4">.col-lg-4</div>
-                <div class="col-lg-4">.col-lg-4</div>
-            </div> <!-- End .row -->
-
+        	<div class="row">
+        	<div class="col-lg-4">
+                	<form class="form-horizontal">
+                		<div class="form-group">
+                			<label for="entityType" class="col-lg-4 control-label">Entity Type</label>
+            				<div class="col-lg-8">
+	            				<select class="form-control" name="entityType">
+	                				<option>Corporation</option>	
+	                				<option>General Partnership</option>
+	                				<option>Individual</option>
+	                				<option>LLC</option>
+	                				<option>LLP</option>
+	                				<option>Non-Profit</option>
+	                				<option>Trust</option>               		
+	                			</select>
+                			</div> <!-- End .col-lg-8 -->
+                		</div> <!-- End .form-group -->
+                		
+                		<div class="form-group">
+                			<label for="entityNumber" class="col-lg-4 control-label">Entity Number</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="entityNumber">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+            			
+            			<div class="form-group">
+                			<label for="custGroupNumber" class="col-lg-4 control-label">Customer Group Number</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="custGroupNumber">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+            			
+            			<div class="form-group">
+	            			<label for="primaryOffice" class="col-lg-4 control-label">Primary Office</label>
+            				<div class="col-lg-8">
+	            				<select class="form-control" name="primaryOffice">
+	                				<option>Bellingham CBC</option>	
+	                				<option>Burlington CBC</option>
+	                				<option>Dupont CBC</option>
+	                				<option>Long Beach CBC</option>
+	                				<option>Salem CBC</option>
+	                				<option>Seaside CBC</option>
+	                				<option>Vancouver CBC</option>               		
+	                			</select>
+                			</div> <!-- End .col-lg-8 -->
+                		</div> <!-- End .form-group -->
+                		
+                		<div class="form-group">
+	                		<label for="primaryOfficer" class="col-lg-4 control-label">Primary Officer</label>
+            				<div class="col-lg-8">
+	            				<select class="form-control" name="primaryOfficer">
+	                				<option>Adam Lervik</option>	
+	                				<option>Jay Johnston</option>
+	                				<option>Louis Barbero</option>
+	                				<option>Scott Reid</option>
+	                				<option>Jeff Morrison</option>       		
+	                			</select>
+                			</div> <!-- End .col-lg-8 -->
+                		</div> <!-- End .form-group -->
+            		</form> <!-- End form -->
+        		</div> <!-- End .col-lg-4 -->
+            		
+        		<!-- BEGIN COLUMN 2 -->
+        		
+        		<div class="col-lg-4">
+        			<form class="form-horizontal">
+            			<div class="form-group">
+                			<label for="yearFormed" class="col-lg-4 control-label">Year Business Formed</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="yearFormed">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+            			
+            			<div class="form-group">
+                			<label for="taxID" class="col-lg-4 control-label">Tax ID</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="taxID">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+        			</form> <!-- End Form -->
+        		</div> <!-- End .col-lg-4 -->
+        		
+        		<!-- END COLUMN 2 -->
+        		
+        		
+        		<!-- BEGIN COLUMN 3 -->
+        		
+        		<div class="col-lg-4">
+        			<form class="form-horizontal">
+            			<div class="form-group">
+                			<label for="yearFormed" class="col-lg-4 control-label">Year Business Formed</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="yearFormed">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+            			
+            			<div class="form-group">
+                			<label for="taxID" class="col-lg-4 control-label">Tax ID</label>
+                			<div class="col-lg-8">
+                				<input type="text" class="form-control" name="taxID">
+            				</div> <!-- End .col-lg-8 -->
+            			</div> <!-- End .form-group -->
+        			</form> <!-- End Form -->
+        		</div> <!-- End .col-lg-4 -->
+        		
+        		<!-- END COLUMN 3 -->
+        		
+        		
+        		
+        		
+        		
+            	</div> <!-- End .row -->
         </div> <!-- End /.container -->
-
-
-
-
-
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
